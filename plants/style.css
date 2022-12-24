@@ -83,6 +83,14 @@ main {
   font-size: 20px;
 }
 
+.second-title {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 130%;
+  color: #499A18;
+}
 /* ==== HEADER SECTION ==== */
 .header-section {
   background: #EDF2EC;
@@ -123,6 +131,15 @@ main {
   font-size: 16px;
   line-height: 312%;
   color: #010201;
+}
+
+.menu-link:hover {
+  font-weight: 700;
+  color: #E06733;
+}
+.menu-link__active {
+  font-weight: 700;
+  color: #E06733;
 }
 /* ------------------------ */
 
@@ -187,5 +204,29 @@ main {
 
 .welcome-text {
   line-height: 175%;
+}
+/* ------------------------ */
+
+/* ===== ABOUT SECTION ===== */
+.about-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-content {
+  margin: 0px 153px 0px 0px;
+}
+
+.about-title span {
+  color: #E06733;
+}
+
+.about-text {
+  line-height: 150%;
+}
+
+.about-image {
+  margin: 93px 0px;
 }
 /* ------------------------ */
