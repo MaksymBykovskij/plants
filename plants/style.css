@@ -79,6 +79,10 @@ main {
   margin: 0 auto;
 }
 
+.text-content {
+  font-size: 20px;
+}
+
 /* ==== HEADER SECTION ==== */
 .header-section {
   background: #EDF2EC;
@@ -119,5 +123,69 @@ main {
   font-size: 16px;
   line-height: 312%;
   color: #010201;
+}
+/* ------------------------ */
+
+/* ==== BUTTON STYLES ====== */
+.button {
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease 0.5s;
+  }
+
+  .primary-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    padding: 14px 27px;
+    color: #000000;
+  }
+  
+  .primary-button:hover {
+    color: #FFFFFF;
+    background: #E06733;
+  }
+/* ------------------------- */
+
+/* ==== WELCOME SECTION ==== */
+.welcome-section {
+  background: #EDF2EC;
+}
+
+.welcome-body {
+  padding: 62px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-content {
+  margin: 0px 0px 0px 224px;
+}
+
+.welcome-content > *:not(:last-child) {
+  margin: 0px 0px 45px 0px;
+}
+
+.welcome-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 111%;
+  color: #717171;
+}
+
+.welcome-title span {
+  color: #499A18;
+}
+
+.welcome-text {
+  line-height: 175%;
 }
 /* ------------------------ */
