@@ -120,6 +120,9 @@ main {
   display: flex;
 }
 
+/* .menu-item {
+  cursor: pointer;
+} */
 .menu-item:not(:last-child) {
   margin: 0px 45px 0px 0px;
 }
@@ -131,6 +134,7 @@ main {
   font-size: 16px;
   line-height: 312%;
   color: #010201;
+  transition: all 0.5s ease 0.5s;
 }
 
 .menu-link:hover {
@@ -145,28 +149,43 @@ main {
 
 /* ==== BUTTON STYLES ====== */
 .button {
-    border: 2px solid #E06733;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    transition: all 0.5s ease 0.5s;
-  }
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease 0.5s;
+}
 
-  .primary-button {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    padding: 14px 27px;
-    color: #000000;
-  }
-  
-  .primary-button:hover {
-    color: #FFFFFF;
-    background: #E06733;
-  }
+.primary-button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  padding: 14px 27px;
+  color: #000000;
+}
+
+.button:hover {
+  color: #FFFFFF;
+  background: #E06733;
+}
+
+.button-secondary {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #E06733;
+  width: 161px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 /* ------------------------- */
 
 /* ==== WELCOME SECTION ==== */
@@ -230,3 +249,67 @@ main {
   margin: 93px 0px;
 }
 /* ------------------------ */
+
+/* ==== SERVICE SECTION ==== */
+.service-section {
+  background: #EDF2EC;
+}
+
+.service-container {
+  padding: 40px 0px 120px;
+}
+
+.service-desc {
+  display: flex;
+  margin: 0px 0px 90px 0px;
+}
+
+.service-title {
+  width: 306px;
+}
+
+.service-button__wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 142px;
+}
+
+.service-button__wrapper >*:not(:last-child) {
+  margin: 0px 38px 0px 0px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex: 1 1 33.3333%;
+}
+
+.service-item {
+  margin: 22.5px 0px;
+}
+
+.service-card {
+  display: inline-block;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  width: 331px;
+  text-align: center;
+  padding: 0px 0px 35px 0px;
+}
+
+.service-card > *:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #E06733;
+}
+/* -------------------------- */
