@@ -368,3 +368,52 @@ main {
 .button-secondary {
 }
 /* -------------------------- */
+
+/* ==== CONTACT SECTION ==== */
+.contact-section {
+  background: #EDF2EC;
+}
+.contact-container {
+  display: flex;
+}
+.contact-image {
+}
+.contact-title__wrapper {
+}
+.contact-title {
+}
+.second-title {
+}
+.city-select {
+}
+/* -------------------------- */
+
+/* ===== FOOTER SECTION ===== */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-column1,
+.footer-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 250%;
+  color: #000000;
+}
+.footer-column1 > *:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list > *:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
+
+/* -------------------------- */
