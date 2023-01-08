@@ -429,8 +429,6 @@ main {
   color: #E06733;
 
 }
-.block__content-button-container {
-}
 .block__content-button {
   font-style: normal;
   font-weight: 700;
@@ -469,9 +467,6 @@ main {
 .button-prices__list > *:not(:last-child) {
   margin: 0px 0px 32px 0px;
 }
-.button-prices__item {
-
-}
 .button-prices {
   display: block;
 }
@@ -496,14 +491,6 @@ main {
 .contact-container {
   display: flex;
   justify-content: space-between;
-}
-.contact-image {
-}
-.contact-title__wrapper {
-}
-.contact-title {
-}
-.second-title {
 }
 .city-select {
   margin: 90px 0px 0px 0px;
@@ -531,10 +518,6 @@ main {
   color: #717171;
   cursor: pointer;
 }
-.city-item {
-}
-.city-item-link {
-}
 /* -------------------------- */
 
 /* ===== FOOTER SECTION ===== */
@@ -543,7 +526,6 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-
 .footer-column1,
 .footer-link {
   font-family: 'Inter';
@@ -556,13 +538,10 @@ main {
 .footer-column1 > *:not(:last-child) {
   margin-right: 20px;
 }
-
 .social-list {
   display: flex;
 }
-
 .social-list > *:not(:last-child) {
   margin: 0px 20px 0px 0px;
 }
-
 /* -------------------------- */
