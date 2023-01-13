@@ -82,6 +82,18 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 668px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    max-width: 330px;
+  }
+}
+
 .text-content {
   font-size: 20px;
 }
@@ -102,6 +114,7 @@ main {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 42px 0px;
 }
 
@@ -144,11 +157,61 @@ main {
   font-weight: 700;
   color: #E06733;
 }
+
 .menu-link__active {
   font-weight: 700;
   color: #E06733;
 }
+
+@media (max-width: 380px) {
+  .menu-list {
+    display: none;
+  }
+  .header-container {
+    padding: 36px 0px;
+  }
+}
 /* ------------------------ */
+
+/* ======== BURGER MENU ======== */
+
+.burger__menu_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.burger__menu {
+  display: none;
+  width: 40px;
+  height: 8px;
+  border-top: 2px solid #717171;
+  border-bottom: 2px solid #717171;
+  position: relative;
+}
+
+.burger__menu:before,
+.burger__menu:after {
+  content: '';
+  width: 40px;
+  border: 1px solid #717171;
+  position: absolute;
+  
+}
+
+.burger__menu:before {
+  top: 10px;
+}
+
+.burger__menu:after {
+  top: -8px;
+}
+
+@media (max-width: 380px) {
+  .burger__menu {
+    display: block;
+  }
+}
+/* ----------------------------- */
 
 /* ==== BUTTON STYLES ====== */
 .button {
@@ -189,6 +252,14 @@ main {
   align-items: center;
   text-align: center;
 }
+
+@media (max-width: 380px) {
+  .primary-button {
+  font-size: 10px;
+  line-height: 200%;
+  padding: 8px 18px;
+}
+}
 /* ------------------------- */
 
 /* ==== WELCOME SECTION ==== */
@@ -227,6 +298,63 @@ main {
 .welcome-text {
   line-height: 175%;
 }
+
+@media (max-width: 768px) {
+
+  .welcome-body {
+    flex-direction: row-reverse;
+  }
+
+  .welcome-content {
+    margin: 0px;
+  }
+
+  .welcome-title {
+    font-size: 35px;
+  }
+
+  .welcome-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+  }
+
+  .welcome-img {
+    width: 280px;
+    height: 254.15px;
+  }
+
+  .welcome-content > *:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .welcome-body {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .welcome-content {
+    margin: 24px 0px;
+  }
+
+  .welcome-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+  }
+
+  .welcome-img {
+   display: none;
+  }
+
+  .welcome-content > *:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
 /* ------------------------ */
 
 /* ===== ABOUT SECTION ===== */
